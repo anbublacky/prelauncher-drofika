@@ -24,6 +24,12 @@ group :development, :test do
   gem 'rspec-mocks', '3.4.1'
   gem 'test-unit', '~> 3.0'
   gem "dotenv-rails"
+  gem 'capistrano', '~> 3.4.0'
+  gem 'capistrano-bundler'
+  gem 'capistrano-rails'
+  gem 'capistrano-rails-console'
+  gem 'capistrano-rvm'
+  gem 'capistrano-sidekiq'
 end
 
 # To use ActiveModel has_secure_password
