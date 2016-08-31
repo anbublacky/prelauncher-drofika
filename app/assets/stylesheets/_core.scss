@@ -50,6 +50,10 @@ html.home{
 	letter-spacing: 2px;
 }
 
+#home .hero .logo_margin {
+	margin: 85px 0 0 45px;
+}
+
 #home .hero .small{
 	font-weight: bold;
 	color: #955F5D;
@@ -63,6 +67,21 @@ html.home{
 	width: 375px;
 	letter-spacing: 1px;
 }
+
+#home .hero .slogan {
+	font-weight: normal;
+	color: black;
+    text-transform: none;
+    text-align: left;
+    margin: 0px 0 0 115px;
+}
+#home .hero .description {
+	color: black;
+    text-transform: none;
+    text-align: left;
+    margin: 40px 0 0 115px;
+}
+
 
 #home .form-wrap{
 	height: 80px;
@@ -248,7 +267,7 @@ html.home{
 
 #refer .header{
 	height: 50px;
-	background: #074E6F;
+	background: white;
 	width: 100%;
 	overflow:hidden;
 	z-index: 1;
@@ -258,6 +277,7 @@ html.home{
 #refer .header .content{
 	width: 315px;
 	margin: 0 auto;
+	float: left;
 }
 
 #refer .header p{
@@ -279,22 +299,24 @@ html.home{
 	margin-right: 14px;
 	letter-spacing: 1px;
 	background: image-url("refer/logo.png") 0 0 no-repeat;
-	background-size: 106px 19px;
-	height: 19px;
-	width: 106px;
-	margin-top: 15px;
+	background-size: 150px 40px;
+	height: 30px;
+	width: 130px;
+	margin-top: 5px;
+	margin-left: 100px;
+
 }
 
 #refer .hero{
-	background: #F1F0EE;
+	background: image-url("refer/refer-friend-bg.png") 0 0 no-repeat;
 	height: 391px;
 	overflow: hidden;
+	background-size: 1600px 446px;
 }
 
 #refer .mammoth{
 	width: 612px;
 	height: 394px;
-	background: image-url("refer/mammoth.png") 0 0 no-repeat;
 	background-size: 610px 394px;
 	overflow: hidden;
 	margin-top: 15px;
