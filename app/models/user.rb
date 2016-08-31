@@ -15,14 +15,14 @@ class User < ActiveRecord::Base
 
   REFERRAL_STEPS = [
     {
-      'count' => 0,
+      'count' => 5,
       'html' => '',
       'class' => 'two',
       'image' =>  ActionController::Base.helpers.asset_path(
         'refer/cream-tooltip@2x.png')
     },
     {
-      'count' => 5,
+      'count' => 10,
       'html' => '',
       'class' => 'three',
       'image' => ActionController::Base.helpers.asset_path(
